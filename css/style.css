@@ -470,24 +470,24 @@ section .section-header p {
   transition: all .3s;
 }
 
-.infobox-team:hover {
+.infobox-team .infobox-team-caption:hover {
   -webkit-box-shadow: 0 5px 20px #f0f0f0;
           box-shadow: 0 5px 20px #f0f0f0;
   padding-bottom: 30px;
 }
 
-.infobox-team:hover .team-social-icons {
+.infobox-team .infobox-team-caption:hover .team-social-icons {
   height: 35px;
 }
 
-.infobox-team .team-social-icons {
+.infobox-team .infobox-team-caption .team-social-icons {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   height: 0;
   overflow: hidden;
 }
 
-.infobox-team .team-social-icons a {
+.infobox-team .infobox-team-caption .team-social-icons a {
   height: 35px;
   width: 35px;
   font-size: 20px;
@@ -500,7 +500,7 @@ section .section-header p {
   margin: 0 10px;
 }
 
-.infobox-team .team-social-icons a:hover {
+.infobox-team .infobox-team-caption .team-social-icons a:hover {
   border: 1px solid #1ba4ce;
   color: #fff;
   background-color: #1ba4ce;
